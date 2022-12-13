@@ -14,7 +14,7 @@ const Profile = ({credentials, setCredentials, creds}) =>{
 
     const handleClick = async() =>{
         //console.log(timing);
-        const response = await fetch(`http://localhost:8800/api/update_batch`, {
+        const response = await fetch(`https://yoga-app-api.onrender.com/api/update_batch`, {
             method: "POST",
             headers: {
             "Content-Type": "application/json",
@@ -49,7 +49,7 @@ const Profile = ({credentials, setCredentials, creds}) =>{
         let month = date.getMonth() + 1;
         let year = date.getFullYear();
 
-        const response = await fetch(`http://localhost:8800/api/update_membership`, {
+        const response = await fetch(`https://yoga-app-api.onrender.com/api/update_membership`, {
             method: "POST",
             headers: {
             "Content-Type": "application/json",

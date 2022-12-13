@@ -18,7 +18,7 @@ const Form = ({credentials, setCredentials, creds, setCreds}) =>{
       toast.error('Credentials Entered is InCorrect !');
     }
     else{
-      const response = await fetch(`http://localhost:8800/api/person`, {
+      const response = await fetch(`https://yoga-app-api.onrender.com/api/person`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

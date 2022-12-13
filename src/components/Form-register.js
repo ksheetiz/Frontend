@@ -34,7 +34,7 @@ const Form = ({credentials, setCredentials}) =>{
     }
     else  next_month++;
 
-    const response = await fetch(`http://localhost:8800/api/register`, {
+    const response = await fetch(`https://yoga-app-api.onrender.com/api/register`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
