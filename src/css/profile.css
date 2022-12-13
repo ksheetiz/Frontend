@@ -114,3 +114,24 @@
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
+
+@media only screen and (max-width: 800px) {
+    .profile-section{
+        width: 70vw;
+    }
+    .timing-change-button{
+        width: auto;
+    }
+    .profile-renew-membership{
+        width: auto;
+    }
+    .profile-renew-button{
+        width: auto;
+    }
+    .profile-section-body{
+        margin-left: -1.2em;
+    }
+    .profile-section-header{
+        margin-left: -1.2em;
+    }
+}

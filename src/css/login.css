@@ -8,5 +8,16 @@
     width: 34vw;
     height: 40vh;
     border-radius: 2em;
+}
+@media only screen and (max-width: 800px) {
+  .form-section-login{
+      width: 60vw;
   }
-  
+  .form-subtopics{
+    width: auto;
+  }
+
+  .form-input{
+    width: 32vw;
+  }
+}  

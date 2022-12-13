@@ -26,6 +26,19 @@
   width: auto;
 }
 
+@media only screen and (max-width: 800px) {
+  .image-section-1, .image-section-2{
+    display: none;
+  }
+  .form-header-img{
+    height: auto;
+    width: auto;
+  }
+  .form-header-img{
+    display: none;
+  }
+}
+
 .form-section{
   display: flex;
   flex-direction: column;
@@ -37,6 +50,12 @@
   height: 88vh;
   border-radius: 2em;
 }
+
+@media only screen and (max-width: 800px) {
+  .form-section{
+    width: 60vw;
+  }
+}  
 
 .form-header{
   display: flex;

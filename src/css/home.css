@@ -29,3 +29,16 @@
 .home-option-button:hover{
     cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+    .home-section{
+        width: 60vw;
+    }
+    
+    .form-submit-button{
+        width: auto;
+    }
+    .home-option-button{
+        width: auto;
+    }
+}
