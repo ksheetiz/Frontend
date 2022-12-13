@@ -1,0 +1,116 @@
+.profile-display-none{
+    display: none;
+}
+
+.profile-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+    backdrop-filter: blur(10px);
+    width: 40vw;
+    height: 50vh;
+    border-radius: 2em;
+    padding-left: 2.4em;
+}
+
+.profile-header{
+    display: flex;
+    align-self: center;
+}
+
+.profile-header-content{
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5em;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+
+.profile-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: auto;
+    justify-content: space-between;
+}
+
+.profile-section-header{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6em;
+}
+
+.profile-section-body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.2em;
+}
+
+.profile-section-body-content{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5em;
+}
+
+.profile-section-option{
+    font-size: 1.2em;
+}
+
+.profile-section-data{
+    font-size: 1.4em;
+}
+
+.profile-body-img{
+    height: 20vh;
+    width: 20vw;
+    margin-left: -1.5em;
+}
+
+.profile-timing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.timing-change-button{
+    margin: 0.2em 0 0 0.4em;
+    height: 2.5vh;
+    width: 5vw;
+    border-radius: 1em;
+    background-color: rgb(26, 189, 26);
+    border: none;
+}
+
+.timing-change-button:hover{
+    cursor: pointer;
+}
+
+.profile-renew-button{
+    background-color: rgb(26, 189, 26);
+    border: none;
+    border-radius: 1em;
+    height: 4vh;
+    width: 10vw;
+    margin-left: 0.5em;
+}
+
+.profile-renew-button:hover{
+    cursor: pointer;
+}
+
+
+.profile-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-subtopics-name{
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}

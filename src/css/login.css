@@ -1,0 +1,12 @@
+.form-section-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+    backdrop-filter: blur(10px);
+    width: 34vw;
+    height: 40vh;
+    border-radius: 2em;
+  }
+  
